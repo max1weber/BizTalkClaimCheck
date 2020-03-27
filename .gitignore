@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/src/packages
+/src/Pipelines/bin/Debug
+/src/Pipelines/obj/Debug
+/src/PipelineComponent/bin/Debug
+/src/PipelineComponent/obj/Debug
+/src/Schemas/bin/Debug
+/src/Schemas/obj/Debug
+/src/Tests/bin/Debug
+/src/Tests/obj/Debug

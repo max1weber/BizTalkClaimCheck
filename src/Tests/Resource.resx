@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GoogleBucketEntry_1" xml:space="preserve">
+    <value>&lt;ns0:BucketEntry xmlns:ns0="https://developer.kramp.com/bucketclaimcheck/2020/03/26"&gt;
+  &lt;TargetInfo&gt;
+    &lt;AccountId&gt;0003505004504&lt;/AccountId&gt;
+    &lt;Name&gt;Marc Weber&lt;/Name&gt;
+  &lt;/TargetInfo&gt;
+  &lt;ResourcSourceInfo&gt;
+    &lt;BucketName&gt;biztalksample&lt;/BucketName&gt;
+    &lt;ResourceName&gt;Sample_Pricat.xml&lt;/ResourceName&gt;
+  &lt;/ResourcSourceInfo&gt;
+&lt;/ns0:BucketEntry&gt;</value>
+  </data>
+  <data name="GoogleBucketResult" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8" standalone="yes"?&gt;
+&lt;message&gt;
+    &lt;defaults&gt;
+        &lt;data_element id="0065" value="PRICAT"/&gt;
+        &lt;data_element id="0052" value="D"/&gt;
+        &lt;data_element id="0054" value="96A"/&gt;
+        &lt;data_element id="0051" value="UN"/&gt;
+    &lt;/defaults&gt;
+    &lt;segment id="UNH" maxrepeat="1" required="true"/&gt;
+    &lt;segment id="BGM" maxrepeat="1" required="true"/&gt;
+    &lt;segment id="DTM" maxrepeat="35" required="true"/&gt;
+    &lt;segment id="ALI" maxrepeat="5"/&gt;
+    &lt;segment id="FTX" maxrepeat="99"/&gt;
+    &lt;group id="SG1" maxrepeat="99"&gt;
+        &lt;segment id="RFF" maxrepeat="1" required="true"/&gt;
+        &lt;segment id="DTM" maxrepeat="5"/&gt;
+    &lt;/group&gt;
+    &lt;group id="SG2" maxrepeat="99"&gt;
+        &lt;segment id="NAD" maxrepeat="1" required="true"/&gt;
+        &lt;segment id="LOC" maxrepeat="25"/&gt;
+        &lt;group id="SG3" maxrepeat="10"&gt;
+            &lt;segment id="RFF" maxrepeat="1" required="true"/&gt;
+            &lt;segment id="DTM" maxrepeat="5"/&gt;
+        &lt;/group&gt;
+        &lt;group id="SG4" maxrepeat="5"&gt;
+            &lt;segment id="CTA" maxrepeat="1" required="true"/&gt;
+            &lt;segment id="COM" maxrepeat="5"/&gt;
+        &lt;/group&gt;
+    &lt;/group&gt;
+    &lt;group id="SG5" maxrepeat="5"&gt;
+        &lt;segment id="TAX" maxrepeat="1" required="true"/&gt;
+        &lt;segment id="MOA" maxrepeat="1"/&gt;
+    &lt;/group&gt;
+    &lt;group id="SG6" maxrepeat="5"&gt;
+        &lt;segment id="CUX" maxrepeat="1" required="true"/&gt;
+        &lt;segment id="DTM" maxrepeat="5"/&gt;
+    &lt;/group&gt;
+    &lt;group id="SG7" maxrepeat="10"&gt;
+        &lt;segment id="PAT" maxrepeat="1" required="true"/&gt;
+        &lt;segment id="DTM" maxrepeat="5"/&gt;
+        &lt;segment id="PCD" maxrepeat="1"/&gt;
+        &lt;segment id="MOA" maxrepeat="1"/&gt;
+    &lt;/group&gt;
+    &lt;group id="SG8" maxrepeat="10"&gt;
+        &lt;segment id="TDT" maxrepeat="1" required="true"/&gt;
+        &lt;segment id="LOC" maxrepeat="10"/&gt;
+    &lt;/group&gt;
+    &lt;group id="SG9" maxrepeat="5"&gt;
+        &lt;segment id="TOD" maxrepeat="1" required="true"/&gt;
+        &lt;segment id="LOC" maxrepeat="2"/&gt;
+    &lt;/group&gt;
+    &lt;group id="SG10" maxrepeat="10"&gt;
+        &lt;segment id="ALC" maxrepeat="1" required="true"/&gt;
+        &lt;segment id="ALI" maxrepeat="5"/&gt;
+        &lt;segment id="DTM" maxrepeat="9"/&gt;
+        &lt;group id="SG11" maxrepeat="1"&gt;
+            &lt;segment id="QTY" maxrepeat="1" required="true"/&gt;
+            &lt;segment id="RNG" maxrepeat="1"/&gt;
+        &lt;/group&gt;
+        &lt;group id="SG12" maxrepeat="1"&gt;
+            &lt;segment id="PCD" maxrepeat="1" required="true"/&gt;
+            &lt;segment id="RNG" maxrepeat="1"/&gt;
+        &lt;/group&gt;
+        &lt;group id="SG13" maxrepeat="2"&gt;
+            &lt;segment id="MOA" maxrepeat="1" required="true"/&gt;
+            &lt;segment id="RNG" maxrepeat="1"/&gt;
+        &lt;/group&gt;
+        &lt;group id="SG14" maxrepeat="1"&gt;
+            &lt;segment id="RTE" maxrepeat="1" required="true"/&gt;
+            &lt;segment id="RNG" maxrepeat="1"/&gt;
+        &lt;/group&gt;
+        &lt;group id="SG15" maxrepeat="5"&gt;
+            &lt;segment id="TAX" maxrepeat="1" required="true"/&gt;
+            &lt;segment id="MOA" maxrepeat="1"/&gt;
+        &lt;/group&gt;
+    &lt;/group&gt;
+    &lt;group id="SG16" maxrepeat="1000"&gt;
+        &lt;segment id="PGI" maxrepeat="1" required="true"/&gt;
+        &lt;segment id="DTM" maxrepeat="15"/&gt;
+        &lt;segment id="QTY" maxrepeat="10"/&gt;
+        &lt;segment id="ALI" maxrepeat="5"/&gt;
+        &lt;segment id="FTX" maxrepeat="5"/&gt;
+        &lt;group id="SG17" maxrepeat="10"&gt;
+            &lt;segment id="CUX" maxrepeat="1" required="true"/&gt;
+            &lt;segment id="DTM" maxrepeat="5"/&gt;
+        &lt;/group&gt;
+        &lt;group id="SG18" maxrepeat="100"&gt;
+            &lt;segment id="PRI" maxrepeat="1" required="true"/&gt;
+            &lt;segment id="CUX" maxrepeat="1"/&gt;
+            &lt;segment id="APR" maxrepeat="1"/&gt;
+            &lt;segment id="RNG" maxrepeat="1"/&gt;
+            &lt;segment id="DTM" maxrepeat="5"/&gt;
+        &lt;/group&gt;
+        &lt;group id="SG19" maxrepeat="10"&gt;
+            &lt;segment id="TAX" maxrepeat="1" required="true"/&gt;
+            &lt;segment id="MOA" maxrepeat="1"/&gt;
+        &lt;/group&gt;
+        &lt;group id="SG20" maxrepeat="99"&gt;
+            &lt;segment id="ALC" maxrepeat="1" required="true"/&gt;
+            &lt;segment id="ALI" maxrepeat="5"/&gt;
+            &lt;group id="SG21" maxrepeat="1"&gt;
+                &lt;segment id="QTY" maxrepeat="1" required="true"/&gt;
+                &lt;segment id="RNG" maxrepeat="1"/&gt;
+            &lt;/group&gt;
+            &lt;group id="SG22" maxrepeat="1"&gt;
+                &lt;segment id="PCD" maxrepeat="1" required="true"/&gt;
+                &lt;segment id="RNG" maxrepeat="1"/&gt;
+            &lt;/group&gt;
+            &lt;group id="SG23" maxrepeat="2"&gt;
+                &lt;segment id="MOA" maxrepeat="1" required="true"/&gt;
+                &lt;segment id="RNG" maxrepeat="1"/&gt;
+            &lt;/group&gt;
+            &lt;group id="SG24" maxrepeat="1"&gt;
+                &lt;segment id="RTE" maxrepeat="1" required="true"/&gt;
+                &lt;segment id="RNG" maxrepeat="1"/&gt;
+            &lt;/group&gt;
+            &lt;group id="SG25" maxrepeat="5"&gt;
+                &lt;segment id="TAX" maxrepeat="1" required="true"/&gt;
+                &lt;segment id="MOA" maxrepeat="1"/&gt;
+            &lt;/group&gt;
+        &lt;/group&gt;
+        &lt;group id="SG26" maxrepeat="20"&gt;
+            &lt;segment id="NAD" maxrepeat="1" required="true"/&gt;
+            &lt;segment id="LOC" maxrepeat="5"/&gt;
+            &lt;group id="SG27" maxrepeat="10"&gt;
+                &lt;segment id="RFF" maxrepeat="1" required="true"/&gt;
+                &lt;segment id="DTM" maxrepeat="5"/&gt;
+            &lt;/group&gt;
+            &lt;group id="SG28" maxrepeat="5"&gt;
+                &lt;segment id="CTA" maxrepeat="1" required="true"/&gt;
+                &lt;segment id="COM" maxrepeat="5"/&gt;
+            &lt;/group&gt;
+        &lt;/group&gt;
+        &lt;group id="SG29" maxrepeat="10"&gt;
+            &lt;segment id="PAT" maxrepeat="1" required="true"/&gt;
+            &lt;segment id="DTM" maxrepeat="5"/&gt;
+            &lt;segment id="PCD" maxrepeat="1"/&gt;
+            &lt;segment id="MOA" maxrepeat="1"/&gt;
+        &lt;/group&gt;
+        &lt;group id="SG30" maxrepeat="10"&gt;
+            &lt;segment id="TDT" maxrepeat="1" required="true"/&gt;
+            &lt;segment id="LOC" maxrepeat="10"/&gt;
+        &lt;/group&gt;
+        &lt;group id="SG31" maxrepeat="5"&gt;
+            &lt;segment id="TOD" maxrepeat="1" required="true"/&gt;
+            &lt;segment id="LOC" maxrepeat="2"/&gt;
+        &lt;/group&gt;
+        &lt;group id="SG32" maxrepeat="10"&gt;
+            &lt;segment id="PAC" maxrepeat="1" required="true"/&gt;
+            &lt;segment id="MEA" maxrepeat="10"/&gt;
+            &lt;segment id="HAN" maxrepeat="5"/&gt;
+        &lt;/group&gt;
+        &lt;group id="SG33" maxrepeat="999999"&gt;
+            &lt;segment id="LIN" maxrepeat="1" required="true"/&gt;
+            &lt;segment id="PIA" maxrepeat="10"/&gt;
+            &lt;segment id="IMD" maxrepeat="999"/&gt;
+            &lt;segment id="MEA" maxrepeat="10"/&gt;
+            &lt;segment id="QTY" maxrepeat="10"/&gt;
+            &lt;segment id="HAN" maxrepeat="5"/&gt;
+            &lt;segment id="ALI" maxrepeat="5"/&gt;
+            &lt;segment id="DTM" maxrepeat="10"/&gt;
+            &lt;segment id="NAD" maxrepeat="99"/&gt;
+            &lt;segment id="RFF" maxrepeat="1"/&gt;
+            &lt;segment id="LOC" maxrepeat="1"/&gt;
+            &lt;segment id="DOC" maxrepeat="1"/&gt;
+            &lt;segment id="FTX" maxrepeat="5"/&gt;
+            &lt;group id="SG34" maxrepeat="999"&gt;
+                &lt;segment id="CCI" maxrepeat="1" required="true"/&gt;
+                &lt;segment id="CAV" maxrepeat="10"/&gt;
+                &lt;segment id="MEA" maxrepeat="10"/&gt;
+            &lt;/group&gt;
+            &lt;group id="SG35" maxrepeat="10"&gt;
+                &lt;segment id="TAX" maxrepeat="1" required="true"/&gt;
+                &lt;segment id="MOA" maxrepeat="1"/&gt;
+            &lt;/group&gt;
+            &lt;group id="SG36" maxrepeat="5"&gt;
+                &lt;segment id="CUX" maxrepeat="1" required="true"/&gt;
+                &lt;segment id="DTM" maxrepeat="5"/&gt;
+            &lt;/group&gt;
+            &lt;group id="SG37" maxrepeat="100"&gt;
+                &lt;segment id="PRI" maxrepeat="1" required="true"/&gt;
+                &lt;segment id="CUX" maxrepeat="1"/&gt;
+                &lt;segment id="APR" maxrepeat="1"/&gt;
+                &lt;segment id="RNG" maxrepeat="1"/&gt;
+                &lt;segment id="DTM" maxrepeat="5"/&gt;
+                &lt;segment id="PCD" maxrepeat="5"/&gt;
+            &lt;/group&gt;
+            &lt;group id="SG38" maxrepeat="99"&gt;
+                &lt;segment id="ALC" maxrepeat="1" required="true"/&gt;
+                &lt;segment id="ALI" maxrepeat="5"/&gt;
+                &lt;segment id="DTM" maxrepeat="9"/&gt;
+                &lt;group id="SG39" maxrepeat="1"&gt;
+                    &lt;segment id="QTY" maxrepeat="1" required="true"/&gt;
+                    &lt;segment id="RNG" maxrepeat="1"/&gt;
+                &lt;/group&gt;
+                &lt;group id="SG40" maxrepeat="1"&gt;
+                    &lt;segment id="PCD" maxrepeat="1" required="true"/&gt;
+                    &lt;segment id="RNG" maxrepeat="1"/&gt;
+                &lt;/group&gt;
+                &lt;group id="SG41" maxrepeat="2"&gt;
+                    &lt;segment id="MOA" maxrepeat="1" required="true"/&gt;
+                    &lt;segment id="RNG" maxrepeat="1"/&gt;
+                &lt;/group&gt;
+                &lt;group id="SG42" maxrepeat="1"&gt;
+                    &lt;segment id="RTE" maxrepeat="1" required="true"/&gt;
+                    &lt;segment id="RNG" maxrepeat="1"/&gt;
+                &lt;/group&gt;
+                &lt;group id="SG43" maxrepeat="5"&gt;
+                    &lt;segment id="TAX" maxrepeat="1" required="true"/&gt;
+                    &lt;segment id="MOA" maxrepeat="1"/&gt;
+                &lt;/group&gt;
+            &lt;/group&gt;
+            &lt;group id="SG44" maxrepeat="10"&gt;
+                &lt;segment id="PAC" maxrepeat="1" required="true"/&gt;
+                &lt;segment id="MEA" maxrepeat="10"/&gt;
+                &lt;segment id="HAN" maxrepeat="5"/&gt;
+            &lt;/group&gt;
+            &lt;group id="SG45" maxrepeat="10"&gt;
+                &lt;segment id="PAT" maxrepeat="1" required="true"/&gt;
+                &lt;segment id="DTM" maxrepeat="5"/&gt;
+                &lt;segment id="PCD" maxrepeat="1"/&gt;
+                &lt;segment id="MOA" maxrepeat="1"/&gt;
+            &lt;/group&gt;
+            &lt;group id="SG46" maxrepeat="10"&gt;
+                &lt;segment id="TDT" maxrepeat="1" required="true"/&gt;
+                &lt;segment id="LOC" maxrepeat="10"/&gt;
+            &lt;/group&gt;
+            &lt;group id="SG47" maxrepeat="5"&gt;
+                &lt;segment id="TOD" maxrepeat="1" required="true"/&gt;
+                &lt;segment id="LOC" maxrepeat="2"/&gt;
+            &lt;/group&gt;
+        &lt;/group&gt;
+    &lt;/group&gt;
+    &lt;segment id="UNT" maxrepeat="1" required="true"/&gt;
+&lt;/message&gt;</value>
+  </data>
+</root>
